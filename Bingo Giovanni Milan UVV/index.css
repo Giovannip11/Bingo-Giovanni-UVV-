@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+
+}
+
+section#area_cartelas {
+    width: 70%;
+    height: 75vh;
+    background-color: crimson;
+
+}
+
+div#header_cartelas , div#header_numeros  {
+    width: 100%;
+    height: 20%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+div#body_cartelas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+div.Cartela { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+div.Cartela h4 {
+    margin-bottom: 5px;
+}
+table, th , td { 
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th , td { 
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+ button {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+section#area_numeros {
+    width: 30%;
+    height: 75vh;
+    background-color: coral;
+
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.acertou{
+    background-color: yellow;
+    color: black;
+  }
+  #numeros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    max-width: 500px; 
+    margin: 0 auto;
+  }
+  
+  
